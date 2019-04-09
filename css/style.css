@@ -1,6 +1,6 @@
 body, h1, h2, p, ul, li, a {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -58,7 +58,7 @@ img {
 #menu {
     max-width: 960px;
     margin: 0 auto;
-    padding: 10px 15px;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -80,7 +80,7 @@ img {
     flex-wrap: wrap;
 }
 
-#menu-nav ul a {
+#menu-nav a {
     display: block;
     font-size: 1.25em;
     padding: 10px;
@@ -88,4 +88,15 @@ img {
 
 #menu-nav a:hover {
     color: #122ab2;
+}
+
+
+/* Introduction */
+
+#introduction {
+    max-width: 960px;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 60px 10px;
 }
